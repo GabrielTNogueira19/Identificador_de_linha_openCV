@@ -1,3 +1,9 @@
+# Código executável apenas no Raspberry Pi, 
+# utilizando a biblioteca OpenCV para processamento de imagens. 
+# O código captura vídeo da câmera, 
+# processa a imagem para detectar linhas e calcula um erro baseado na posição da linha detectada em relação ao centro da imagem.
+# O resultado é exibido em tempo real.
+
 import cv2
 import numpy as np
 from picamera2 import Picamera2
